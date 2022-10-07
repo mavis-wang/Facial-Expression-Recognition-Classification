@@ -18,7 +18,7 @@
 ## Methodology
 - Trained with Keras and Tensorflow on Colab with GPU.
 - Split 80/20 
-- Traing for 50 epochs, batched.
+- Trained for 50 epochs, batched.
 - Ensembling (Soft Vote)
 
 ## Tasks
@@ -32,8 +32,8 @@
 
 ## Models 
 - [x] Simple CNN (3 Conv + 1 FC layers)
-- [x] Transfer Learning: MobileNet and others
-- [x] Ensemble
+- [x] Transfer Learning
+- [x] Ensembling Metthod
 
 ## Results [Slide](https://github.com/SJSUMS/Facial-Expression-Recognition/blob/main/T2_Facial_Expression%20Recognition_Results.pdf)
 |    Model   |   Accuracy on Test Set | 
