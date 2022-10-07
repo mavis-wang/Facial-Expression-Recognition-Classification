@@ -36,15 +36,4 @@ by [mavisw](https://github.com/mavisw)
 - [x] Transfer Learning
 - [x] Ensembling Metthod
 
-## Results [Slide](https://docs.google.com/presentation/d/1h9cVVBe_7FTmr2uxcdZslfeMWPc9Zyv93_j4pLkAhnM/present?slide=id.p)
-|    Model   |   Accuracy on Test Set | 
-|:-----------| :--------- |
-| Simple CNN (5 layers) |   54%  |
-| MobileNetV2  | 64% | 
-| Inception | 61% |
-| Xception | 55% |
-| Top-3 |67%|
-
-## Code
-- [x] [EDA (Data Preparation)](https://github.com/mavis-wang/DSNotes/blob/main/sample/FER_dataPrep.ipynb)
-- [x] [Model (Transfer Learning)](https://github.com/mavis-wang/DSNotes/blob/main/sample/FER_Ensemble_DL.ipynb)
+## Results 
