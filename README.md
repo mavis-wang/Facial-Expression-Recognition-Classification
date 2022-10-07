@@ -1,6 +1,7 @@
 #### Related Work: [FER2013](https://github.com/SJSUMS/Facial-Expression-Recognition)
 
 # Facial Expression Recognition Classification <br>
+by [mavisw](https://github.com/mavisw)
 <p><img src='https://production-media.paperswithcode.com/datasets/FER2013-0000001434-01251bb8_415HDzL.jpg'></p>
 
 ## Dataset [CSV](https://www.kaggle.com/deadskull7/fer2013) | [PNG](https://www.kaggle.com/astraszab/facial-expression-dataset-image-folders-fer2013)
@@ -35,7 +36,7 @@
 - [x] Transfer Learning
 - [x] Ensembling Metthod
 
-## Results [Slide](https://github.com/SJSUMS/Facial-Expression-Recognition/blob/main/T2_Facial_Expression%20Recognition_Results.pdf)
+## Results [Slide](https://docs.google.com/presentation/d/1h9cVVBe_7FTmr2uxcdZslfeMWPc9Zyv93_j4pLkAhnM/present?slide=id.p)
 |    Model   |   Accuracy on Test Set | 
 |:-----------| :--------- |
 | Simple CNN (5 layers) |   54%  |
