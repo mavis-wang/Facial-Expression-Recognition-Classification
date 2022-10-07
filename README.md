@@ -30,8 +30,9 @@
 - [x] Training and testing (on Colab w/GPU)
 - [x] Evaluation (accuracy, F1, Recall, Precision)
 
-## Models
+## Models 
 - [x] Simple CNN (3 Conv + 1 FC layers)
+- [x] Transfer Learning: MobileNet and others
 - [x] Ensemble
 
 ## Results [Slide](https://github.com/SJSUMS/Facial-Expression-Recognition/blob/main/T2_Facial_Expression%20Recognition_Results.pdf)
@@ -42,3 +43,7 @@
 | Inception | 61% |
 | Xception | 55% |
 | Top-3 |67%|
+
+## Code
+- [x] [EDA (Data Preparation)](https://github.com/mavis-wang/DSNotes/blob/main/sample/FER_dataPrep.ipynb)
+- [x] [Model (Transfer Learning)](https://github.com/mavis-wang/DSNotes/blob/main/sample/FER_Ensemble_DL.ipynb)
