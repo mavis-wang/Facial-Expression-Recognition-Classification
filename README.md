@@ -1,6 +1,7 @@
 #### Related Work: [FER2013](https://github.com/SJSUMS/Facial-Expression-Recognition)
 
 # Facial Expression Recognition Classification <br>
+by [mavisw](https://github.com/mavisw)
 <p><img src='https://production-media.paperswithcode.com/datasets/FER2013-0000001434-01251bb8_415HDzL.jpg'></p>
 
 ## Dataset [CSV](https://www.kaggle.com/deadskull7/fer2013) | [PNG](https://www.kaggle.com/astraszab/facial-expression-dataset-image-folders-fer2013)
@@ -18,7 +19,7 @@
 ## Methodology
 - Trained with Keras and Tensorflow on Colab with GPU.
 - Split 80/20 
-- Traing for 50 epochs, batched.
+- Trained for 50 epochs, batched.
 - Ensembling (Soft Vote)
 
 ## Tasks
@@ -30,15 +31,16 @@
 - [x] Training and testing (on Colab w/GPU)
 - [x] Evaluation (accuracy, F1, Recall, Precision)
 
-## Models
+## Models 
 - [x] Simple CNN (3 Conv + 1 FC layers)
-- [x] Ensemble
+- [x] Transfer Learning
+- [x] Ensembling Metthod
 
-## Results [Slide](https://github.com/SJSUMS/Facial-Expression-Recognition/blob/main/T2_Facial_Expression%20Recognition_Results.pdf)
-|    Model   |   Accuracy on Test Set | 
-|:-----------| :--------- |
-| Simple CNN (5 layers) |   54%  |
-| MobileNetV2  | 64% | 
+## Results 
+|    Model     |   Accuracy (test set)  |
+|:-------------| :------------ |
+| Simple CNN (5 layers) | 54% |
+| MobileNetV2 | 64% |
 | Inception | 61% |
 | Xception | 55% |
-| Top-3 |67%|
+|Top-3 Ensembling | 67% |
