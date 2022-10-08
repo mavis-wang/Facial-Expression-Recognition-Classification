@@ -37,3 +37,10 @@ by [mavisw](https://github.com/mavisw)
 - [x] Ensembling Metthod
 
 ## Results 
+|    Model     |   Accuracy (test set)  |
+|:-------------| :------------ |
+| Simple CNN (5 layers) | 54% |
+| MobileNetV2 | 64% |
+| Inception | 61% |
+| Xception | 55% |
+|Top-3 Ensembling | 67% |
